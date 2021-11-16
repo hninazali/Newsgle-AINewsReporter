@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto', cursive;
+}
+
+main {
+  min-height: 75vh;
+}
+
+.navbar-custom {
+  background-color: #08192b;
+}
+
+.background {
+  background-image: url(./images/newspaper1.jpeg);
+  background-size: cover;
+}
+h1 {
+  font-size: 4em;
+  text-align: center;
+  font-weight: 600;
+  color: #353239;
+  padding: 0em;
+}
+
+h1 span span { color: rgb(23, 107, 239); }
+h1 span span:nth-child(2n) { color: rgb(255, 62, 48); }
+h1 span span:nth-child(3n) { color: rgb(247, 181, 41); }
+h1 span span:nth-child(4n) { color: rgb(255, 62, 48); }
+h1 span span:nth-child(5n) { color: rgb(23, 156, 82); }
